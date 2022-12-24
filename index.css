@@ -1,0 +1,536 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style:none;
+}
+body{
+    text-decoration: none;
+    list-style:none;
+}
+.nav_bar{
+    width:auto;
+    height:150px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #E9873E;
+}
+.social_icons{
+    width:80%;
+    height:35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_icons img{
+    width:25px;
+    height:25px;
+    object-fit: fit;
+    margin:0 5px;
+}
+.nav_links_section{
+    width: 100%;
+    height:115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_links_section a img{
+    width:100px;
+    height:100px;
+    object-fit: fit;
+    }
+.nav_links_section .navlinks{
+    width:75%;
+    height:auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.navlinks li{
+    margin:30px 0  0 25px;
+}
+.navlinks li a{
+    font-size: 18px;
+    text-decoration: none;
+    color:black;
+}
+.navlinks li .active{
+    color:#E9873E;
+}
+.navlinks .emr_button{
+    width:200px;
+    height:50px;
+    margin-left:25px;
+    margin-top:30px;
+    border-radius: 10px;
+    background-color: red;
+}
+.emr_button{
+    display: flex;
+}
+.emr_button a{
+    margin-top:-18px;
+    text-decoration: none;
+    color: #23F2FF;
+}
+.emr_button p{
+    color:white;
+}
+/*ending of nav section*/
+/*beignning of header section*/
+.header_section{
+    width:auto;
+    height:450px;
+    position: relative;
+}
+.header_section img{
+    width:100%;
+    height:100%;
+    object-fit: fit;
+}
+.header_section .quick_assistance{
+    width:150px;
+    height:250px;
+    position: absolute;
+    right:0px;
+    top:25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quick_assistance button{
+    width:105px;
+    height:56px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-left: 40px;
+    margin-top:7px;
+    background: #2EBBC4 0% 0% no-repeat padding-box;
+    border:none;
+}
+.quick_assistance button img{
+    width:26px;
+    height:26px;
+}
+/*ending of header section*/
+/*beginning of book an appointment section*/
+.bookanappointment{
+    width:70%;
+    height:50px;
+    margin:0 auto;
+    display: flex;
+}
+.bookanappointment section{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2EBBC4;
+}
+.bookanappointment section p{
+    margin-top:10px;
+    color:white;
+}
+/*book an appointment section ending*/
+/*about us section begin*/
+.about_us_section{
+    width:auto;
+    height:600px;
+    
+}
+.about_details{
+    width:70%;
+    height:500px;
+    
+    margin:0 auto;
+    display: flex;
+}
+.about_details .about_img{
+    width:100%;
+    height:100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_img img{
+    width:100%;
+    height:auto;
+    object-fit: fit;
+   
+}
+.about_details .about_txt{
+    width:100%;
+    height:100%;
+    
+}
+/*about us section styling ending */
+/*about doctor section styling begin*/
+.slider{
+    width:auto;
+    height:550px;
+    border:1px solid black;
+}
+.slider .swiper {
+    width: 100%;
+    height: 100%;
+  }
+.swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    position: relative;
+    background-image: url('/paramesh_kl_ads/images/Image 432.png');
+    background-position: 50% 50%;
+  }
+  .swiper-slide .doc_info{
+    width:800px;
+    height:450px;
+    position:absolute;
+    left:20%;
+    display: flex;
+  }
+  .doc_info .doc_img{
+    width:100%;
+    height:100%;
+  }
+  .doc_img img{
+    width:60%;
+    height:90%;
+    margin-right:20%;
+    margin-top:5%;
+  }
+  .doc_img .ortho_pain_img{
+    width:90px;
+    height:90px;
+    margin-top:-650px;
+    margin-left:250px;
+  }
+
+  .doc_info .doc_data{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'poppins', sans-serif;
+    color:white;
+  }
+  .doc_data h3{
+    font-weight: bold;
+    margin-top:100px;
+    font-size: 35px;
+  }
+  .doc_data button{
+    width:150px;
+    height:40px;
+    border-radius: 5px;
+    background-color: #2EBBC4;
+    margin-top:10px;
+    border:none;
+    color:white;
+    font-size:14px;
+  }
+  /*about doctors section ending*/
+  /*our doctors section beginning*/
+  .our_doctors{
+    width:65%;
+    height:300px;
+    margin:0 auto;
+  }
+  .our_doctors .owl-carousel .owl-prev {
+   position:absolute;
+    margin-left: -50px;
+    top:100px;
+    transform: rotate(180deg);
+}
+.our_doctors .owl-carousel .owl-next {
+    position:absolute;
+     right:-50px;
+     top:100px;
+ }
+ /*our doctors section styling done*/
+ /*specialities we treat section styling done*/
+ .Specialities_we_treat{
+    width:65%;
+    height:450px;
+    margin:0 auto;
+ }
+ .Specialities_we_treat .owl-carousel2{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .owl-carousel2 .Specialities1 .Specialities1_section{
+    width:100%;
+    height:130px;
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+ }
+ .Specialities1 .Specialities1_section div{
+    width:130px;
+    height:130px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ .Specialities1_section div img{
+    border-radius: 50%;
+    object-fit: fit;
+ }
+ .owl-carousel2 .owl-prev {
+    position:absolute;
+     margin-left: -50px;
+     top:220px;
+     transform: rotate(180deg);
+ }
+ .owl-carousel2  .owl-next {
+    position:absolute;
+     right:-50px;
+     top:220px;
+ }
+ 
+ /*specialities section styling ending*/
+ /*knowledge center section styling begin*/
+ .knowledge_center{
+    width:70%;
+    height:550px;
+    margin: 0 auto;
+ }
+ .knowledge_center .main_image{
+    width:100%;
+    height:70%;
+    position: relative;
+ }
+ .main_image img{
+    width:100%;
+    height:100%;
+    object-fit: fit;
+ }
+ .knowledge_center .min_image{
+        width:100%;
+        height:30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top:5px;
+ }
+ .min_image img{
+    width:100%;
+    height:100%;
+    object-fit: fit;
+    margin-left:15px;
+ }
+ /*knowledge section styling done*/
+ /*blogs section styling begin*/
+ .blogs_section{
+    width:auto;
+    height:426px;
+    background-image: url('/paramesh_kl_ads/images/Mask Group 79.png');
+    background-position: 0% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .blogs_section .blog_content{
+        width:320px;
+        height:350px;
+        margin: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+ }
+ .blog_content .blog_main_img img{
+   width:300px;
+   height:200px;
+   object-fit: cover;
+ }
+ .blog_content .blog_main_cont{
+    width:280px;
+    height:150px;
+    position: absolute;
+    top:50%;
+    background-color: white;
+    color:black;
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ .blog_main_cont h5{
+    font-size: 14px;
+    width:90%;
+    margin:0 auto;
+ }
+ .blog_main_cont p{
+    font-size: 12px;
+    width:90%;
+    margin: 0 auto;
+ }
+ /*blog content styling ending*/
+ /*google review section begin*/
+ .google_review{
+    width:70%;
+    height:400px;
+    margin:0 auto;
+ }
+ .google_review .review_title{
+    width:100%;
+    height:150px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ .google_review .review_slider{
+    width:100%;
+    height:200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+ }
+ .review_slider .review_slider_content{
+        width:100%;
+        height:80%;
+        margin:10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ /*google review seciton styling beign*/
+
+ /*book an appointment seciton styling begin*/
+ .book_an_appointment{
+    width:auto;
+    height:400px;
+    background-image: url('/paramesh_kl_ads/images/Image 422.png');
+    background-position: 50% 50%;
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+ }
+ .book_an_appointment .book_appointment{
+    width:650px;
+    height:350px;
+ }
+ .book_appointment input{
+    width:90%;
+ }
+ .book_appointment .input2{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+ }
+ .book_appointment .appoint_sub_div{
+    width:100%;
+    height:auto;
+ }
+ .appoint_sub_div {
+    display: flex;
+ }
+ .appoint_sub_div div{
+    width:100%;
+    height:100%;
+ }
+ .appoint_sub_div div ::placeholder{
+    font-size: 12px;
+ }
+
+ /*book an appointment section styling ending*/
+ /*gallery section styling begin*/
+ .gallery_Section{
+    width:100%;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ }
+ .gallery_Section section:first-child{
+    width:350px;
+    height: 400px;
+    margin-right:50px;
+ }
+ .gallery_Section section:last-child{
+    width:200px;
+    height: 250px;
+    margin-left:50px;
+ }
+/*gallery section styling ending*/
+.our_location_Section{
+    width:60%;
+    height:400px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our_location_Section .our_Contact{
+    width:100%;
+    height: 100%;
+    background-color: #ebc1a2;
+    margin:5px;
+}
+.our_location_Section .our_loco{
+    width:100%;
+    height:100%;
+    margin:5px;
+}
+.our_loco img{
+    width:100%;
+    height:100%;
+    object-fit:fit;
+}
+/*our location section ending*/
+/*footer section begin*/
+footer{
+    width:100%;
+    height:350px;
+    
+    margin-top:10px;
+    background-color: #2EBBC44F ;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer .footer_logo{
+    width:150px;
+    height:150px;
+   
+}
+.footer_logo img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.footer_links{
+    width:200px;
+    height:auto;
+    
+}
+ .footer_contact{
+    width:200px;
+    height:auto;
+   
+}
+.footer_address{
+    width:350px;
+    height:auto;
+    
+}
